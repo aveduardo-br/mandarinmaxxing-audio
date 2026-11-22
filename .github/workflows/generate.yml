@@ -54,6 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio status.csv redo.txt
+          git add --all audio redo.txt
+          if [ -f status.csv ]; then git add status.csv; fi
           git diff --cached --quiet || git commit -m "Audio: HSK ${{ inputs.level }}"
           git push
