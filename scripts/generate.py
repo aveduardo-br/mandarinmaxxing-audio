@@ -200,6 +200,10 @@ def judge(word, pinyin, heard, seconds):
                 result = 'differs'
         except ImportError:
             result = 'differs'
+    # one syllable alone is where the transcriber guesses most: it hears 爱 as "I" and 八 as 吧.
+    # Those go to a person's ear instead of the flagged list.
+    if len(word) == 1 and not result.startswith('ok'):
+        result = 'listen, one syllable'
     return '; '.join([result] + notes)
 
 
@@ -256,7 +260,7 @@ def main():
     if not key:
         sys.exit('ELEVENLABS_API_KEY is not set.')
 
-    made, flagged, failed = 0, [], []
+    made, flagged, failed, to_hear = 0, [], [], []
     for e in chosen:
         out_path = os.path.join(ROOT, e['file'])
         try:
@@ -279,7 +283,9 @@ def main():
                              'generated': datetime.date.today().isoformat(), 'check': check,
                              'heard': heard, 'approved': ''}
         made += 1
-        if not check.startswith('ok') and not check.startswith('not checked'):
+        if check.startswith('listen') or check.startswith('two readings'):
+            to_hear.append(e['word'])
+        elif not check.startswith('ok') and not check.startswith('not checked'):
             flagged.append(f"{e['word']} ({e['pinyin']}): {check}, heard “{heard}”")
         if made % 25 == 0:
             save_status(status)
@@ -292,6 +298,7 @@ def main():
 
     lines = [f'Recorded {made} words ({chars} characters planned). Flagged {len(flagged)}. Failed {len(failed)}.',
              f'Still to record in these levels: {len(todo) - made}. Waiting for special.csv: {len(waiting)}.']
+    lines += ['', 'To listen to (one syllable or two readings): ' + ' '.join(to_hear)] if to_hear else []
     lines += ['', 'Flagged:'] + [f'- {x}' for x in flagged] if flagged else []
     lines += ['', 'Failed:'] + [f'- {x}' for x in failed] if failed else []
     print('\n'.join(lines))
