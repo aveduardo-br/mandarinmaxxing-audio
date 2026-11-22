@@ -1,0 +1,59 @@
+name: Generate audio
+
+# Records the words of one HSK level that have no audio yet, checks them, and commits the files.
+# Started by hand, so no credits are spent without someone asking for it.
+
+on:
+  workflow_dispatch:
+    inputs:
+      level:
+        description: HSK level to record (1 to 6)
+        required: true
+        default: "1"
+      limit:
+        description: Most words to record in this run
+        required: true
+        default: "400"
+      max_chars:
+        description: Most characters to send to the voice in this run (the credit cap)
+        required: true
+        default: "1500"
+      check:
+        description: Transcribe each file and compare it with the word
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up the tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install --quiet requests pypinyin
+
+      - name: Record
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 scripts/generate.py --level "${{ inputs.level }}" --limit "${{ inputs.limit }}" \
+            --max-chars "${{ inputs.max_chars }}" ${{ inputs.check && ' ' || '--no-check' }}
+
+      - name: Save the files
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio status.csv redo.txt
+          git diff --cached --quiet || git commit -m "Audio: HSK ${{ inputs.level }}"
+          git push
