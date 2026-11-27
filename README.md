@@ -19,7 +19,7 @@ Nobody installs this repository. The skill's table fetches a single file from he
 ## How a batch is made
 
 1. Open **Actions → Generate audio → Run workflow**, choose the level, and run it.
-2. The script records every word of that level that has no line in `status.csv`, with the voice Sarah on ElevenLabs (`eleven_v4`).
+2. The script records every word of that level that has no line in `status.csv`, with the voice Yun (`4AfodMgwXps9oZFhHzoj`, a native Mandarin voice from the ElevenLabs library) on `eleven_v4`. A word of two readings is recorded from a character with the same sound and a single reading, listed in `special.csv`.
 3. Each file is trimmed, levelled, and saved as a small mono MP3.
 4. Each file is transcribed and compared with the word. What doesn't match is flagged in the run's summary and in `status.csv`.
 5. The files and the log are committed.
