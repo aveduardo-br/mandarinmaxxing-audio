@@ -1,91 +1,9 @@
 voice,word,pinyin,seconds,heard,check
-ladaisy,办理,bànlǐ,1.87,办理，办理，办理。,differs
-ladaisy,大人,dàren,0.67,大人,ok
-ladaisy,一生,yìshēng,0.66,一声,tone?
-ladaisy,垃圾,lājī,0.71,垃圾。,ok
-ladaisy,文字,wénzì,0.76,文字,ok
-ladaisy,景色,jǐngsè,0.81,景色。,ok
-ladaisy,女性,nǚxìng,0.74,没信,differs
-ladaisy,获取,huòqǔ,0.71,或许,differs
-ladaisy,普通,pǔtōng,0.65,普通,ok
-ladaisy,名人,míngrén,0.75,明忍,tone?
-ladaisy,为了,wèile,0.61,为了,ok
-ladaisy,稍微,shāowēi,0.8,稍微。,ok
-ladaisy,比如,bǐrú,0.96,皮肉,differs
-ladaisy,偶尔,ǒu’ěr,0.68,偶尔,ok
-ladaisy,不便,búbiàn,0.96,不变,tone?
-ladaisy,期中,qīzhōng,0.68,其中,tone?
-ladaisy,学期,xuéqī,0.8,学期,ok
-ladaisy,行李,xíngli,0.77,行礼。,tone?
-ladaisy,预习,yùxí,0.96,玉玺,tone?
-ladaisy,西红柿,xīhóngshì,0.94,西红柿。,ok
-ladaisy,好,hǎo,0.71,好。,ok
-ladaisy,不,bù,0.88,不,ok
-ladaisy,吗,ma,0.86,嘛,ok same sound
-ladaisy,茶,chá,0.59,Ta,"listen, one syllable"
-ladaisy,买,mǎi,0.51,My,"listen, one syllable"
-ladaisy,卖,mài,0.5,My。,"listen, one syllable"
-ladaisy,四,sì,0.53,四。,ok
-ladaisy,十,shí,0.67,十。,ok
-ladaisy,是,shì,0.78,是。,ok
-ladaisy,人,rén,0.55,人,ok
-alina,办理,bànlǐ,1.85,办理，办理，办理。,differs
-alina,大人,dàren,0.64,大人,ok
-alina,一生,yìshēng,1.02,一声。,tone?
-alina,垃圾,lājī,0.72,辣姐。,differs
-alina,文字,wénzì,0.71,文字。,ok
-alina,景色,jǐngsè,0.78,景色,ok
-alina,女性,nǚxìng,0.75,女性。,ok
-alina,获取,huòqǔ,1.04,获取。,ok
-alina,普通,pǔtōng,0.68,普通,ok
-alina,名人,míngrén,0.77,明忍。,tone?
-alina,为了,wèile,0.92,为了。,ok
-alina,稍微,shāowēi,0.75,稍微。,ok
-alina,比如,bǐrú,0.67,Peru,nothing heard
-alina,偶尔,ǒu’ěr,0.65,偶尔,ok
-alina,不便,búbiàn,0.66,不变,tone?
-alina,期中,qīzhōng,0.74,期中,ok
-alina,学期,xuéqī,0.81,学期。,ok
-alina,行李,xíngli,0.79,行礼。,tone?
-alina,预习,yùxí,0.96,玉玺。,tone?
-alina,西红柿,xīhóngshì,1.03,西红柿。,ok
-alina,好,hǎo,0.51,好。,ok
-alina,不,bù,0.48,不。,ok
-alina,吗,ma,0.47,妈,"listen, one syllable"
-alina,茶,chá,0.61,茶。,ok
-alina,买,mǎi,0.72,My,"listen, one syllable"
-alina,卖,mài,0.49,My,"listen, one syllable"
-alina,四,sì,0.59,四。,ok
-alina,十,shí,0.61,学,"listen, one syllable"
-alina,是,shì,0.79,是。,ok
-alina,人,rén,0.54,人,ok
-nova,办理,bànlǐ,1.8,办理，办理，办理。,differs
-nova,大人,dàren,0.63,大人,ok
-nova,一生,yìshēng,0.64,一声,tone?
-nova,垃圾,lājī,0.68,垃圾。,ok
-nova,文字,wénzì,0.69,文字。,ok
-nova,景色,jǐngsè,0.75,景色,ok
-nova,女性,nǚxìng,0.71,女性,ok
-nova,获取,huòqǔ,0.65,获取,ok
-nova,普通,pǔtōng,0.65,普通,ok
-nova,名人,míngrén,0.74,名人。,ok
-nova,为了,wèile,0.53,为了,ok
-nova,稍微,shāowēi,0.68,稍微,ok
-nova,比如,bǐrú,0.61,比如,ok
-nova,偶尔,ǒu’ěr,0.6,偶尔,ok
-nova,不便,búbiàn,0.66,不变,tone?
-nova,期中,qīzhōng,0.7,其中,tone?
-nova,学期,xuéqī,0.79,学期。,ok
-nova,行李,xíngli,0.67,行礼。,tone?
-nova,预习,yùxí,0.69,玉玺。,tone?
-nova,西红柿,xīhóngshì,1.1,西红柿。,ok
-nova,好,hǎo,0.49,好。,ok
-nova,不,bù,0.42,不。,ok
-nova,吗,ma,0.44,嘛,ok same sound
-nova,茶,chá,0.8,茶。,ok
-nova,买,mǎi,0.48,买。,ok
-nova,卖,mài,0.43,My。,"listen, one syllable"
-nova,四,sì,0.52,四。,ok
-nova,十,shí,0.61,是。,"listen, one syllable"
-nova,是,shì,0.85,是。,ok
-nova,人,rén,0.52,人,ok
+fix1,办理,bànlǐ,0.57,빨리,nothing heard
+fix1,目的,mùdì,0.61,莫迪,differs
+fix2,办理,bànlǐ,0.56,办理。,ok
+fix2,目的,mùdì,0.62,墓地,ok same sound
+fix3,办理,bànlǐ,2.04,办理办理办理办理。,differs
+fix3,目的,mùdì,0.59,目的,ok
+fix4,办理,bànlǐ,1.74,办理，办理，办理。,differs
+fix4,目的,mùdì,0.95,穆迪。,tone?
