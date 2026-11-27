@@ -132,7 +132,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 好,hǎo,1,audio/好.mp3,好。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.51,2026-11-27,ok,好。,
 好吃,hǎochī,1,audio/好吃.mp3,好吃。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.66,2026-11-27,ok,好吃。,
 好听,hǎotīng,1,audio/好听.mp3,好听。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.62,2026-11-27,ok,好听。,
-好玩儿,hǎowánr,1,audio/好玩儿.mp3,好玩儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.68,2026-11-27,differs; take 1 of 3,好玩,
+好玩儿,hǎowánr,1,audio/好玩儿.mp3,好玩儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.68,2026-11-27,differs; take 1 of 3,好玩,yes
 好看,hǎokàn,1,audio/好看.mp3,好看。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.64,2026-11-27,ok,好看,
 妈妈,māma,1,audio/妈妈.mp3,妈妈。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.61,2026-11-27,ok,妈妈。,
 妹妹,mèimei,1,audio/妹妹.mp3,妹妹。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.55,2026-11-27,ok,妹妹,
@@ -292,7 +292,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 零,líng,1,audio/零.mp3,零。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.5,2026-11-27,ok,零,
 非常,fēicháng,1,audio/非常.mp3,非常。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,ok,非常,
 面包,miànbāo,1,audio/面包.mp3,面包。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.66,2026-11-27,ok,面包,
-面条儿,miàntiáor,1,audio/面条儿.mp3,面条儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.93,2026-11-27,differs; take 1 of 3,面条,
+面条儿,miàntiáor,1,audio/面条儿.mp3,面条儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.93,2026-11-27,differs; take 1 of 3,面条,yes
 飞机,fēijī,1,audio/飞机.mp3,飞机。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,1.01,2026-11-27,ok,飞机。,
 饭,fàn,1,audio/饭.mp3,饭。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.49,2026-11-27,ok same sound,犯,
 饭店,fàndiàn,1,audio/饭店.mp3,饭店。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,ok,饭店,
@@ -415,7 +415,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 班,bān,2,audio/班.mp3,班。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.44,2026-11-27,"listen, one syllable",拜。,
 球,qiú,2,audio/球.mp3,球。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.58,2026-11-27,ok same sound,求。,
 生日,shēngrì,2,audio/生日.mp3,生日。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,1.03,2026-11-27,ok,生日。,
-男孩儿,nánháir,2,audio/男孩儿.mp3,男孩儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.73,2026-11-27,differs; take 1 of 3,男孩,
+男孩儿,nánháir,2,audio/男孩儿.mp3,男孩儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.73,2026-11-27,differs; take 1 of 3,男孩,yes
 画,huà,2,audio/画.mp3,画。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.46,2026-11-27,ok,画。,
 疼,téng,2,audio/疼.mp3,疼。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.58,2026-11-27,ok,疼,
 白色,báisè,2,audio/白色.mp3,白色。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,ok,白色,
@@ -607,7 +607,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 发生,fāshēng,3,audio/发生.mp3,发生。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.65,2026-11-27,ok,发生,
 叔叔,shūshu,3,audio/叔叔.mp3,叔叔。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,ok,叔叔。,
 受,shòu,3,audio/受.mp3,受。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.52,2026-11-27,ok same sound,瘦。,
-受到,shòudào,3,audio/受到.mp3,受到。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,tone?; take 1 of 3,收到。,
+受到,shòudào,3,audio/受到.mp3,受到。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,tone?; take 1 of 3,收到。,yes
 变,biàn,3,audio/变.mp3,变。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.71,2026-11-27,ok,变。,
 变化,biànhuà,3,audio/变化.mp3,变化。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,ok,变化。,
 变成,biànchéng,3,audio/变成.mp3,变成。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,ok,变成,
@@ -891,7 +891,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 耳朵,ěrduo,3,audio/耳朵.mp3,耳朵。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.63,2026-11-27,ok,耳朵。,
 耳机,ěrjī,3,audio/耳机.mp3,耳机。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.7,2026-11-27,ok,耳机。,
 聊,liáo,3,audio/聊.mp3,聊。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.49,2026-11-27,ok,聊,
-聊天儿,liáotiānr,3,audio/聊天儿.mp3,聊天儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.65,2026-11-27,differs; take 1 of 3,聊天,
+聊天儿,liáotiānr,3,audio/聊天儿.mp3,聊天儿。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.65,2026-11-27,differs; take 1 of 3,聊天,yes
 聪明,cōngmíng,3,audio/聪明.mp3,聪明。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.65,2026-11-27,ok,聪明,
 胖,pàng,3,audio/胖.mp3,胖。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.51,2026-11-27,ok,胖。,
 脏,zāng,3,audio/脏.mp3,脏。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.51,2026-11-27,ok,脏。,
@@ -999,7 +999,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 上门,shàngmén,4,audio/上门.mp3,上门。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.71,2026-11-27,ok,上门。,
 下降,xiàjiàng,4,audio/下降.mp3,下降。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.72,2026-11-27,ok,下降。,
 不仅,bùjǐn,4,audio/不仅.mp3,不仅。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.6,2026-11-27,ok,不仅,
-不便,búbiàn,4,audio/不便.mp3,不便。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,tone?; take 1 of 3,不变。,
+不便,búbiàn,4,audio/不便.mp3,不便。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,tone?; take 1 of 3,不变。,yes
 不光,bùguāng,4,audio/不光.mp3,不光。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.63,2026-11-27,ok,不光,
 不够,búgòu,4,audio/不够.mp3,不够。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.79,2026-11-27,ok,不够,
 不如,bùrú,4,audio/不如.mp3,不如。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.64,2026-11-27,ok,不如,
@@ -1013,7 +1013,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 与,yǔ,4,audio/与.mp3,与。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.46,2026-11-27,"listen, one syllable",嗯。,
 专业,zhuānyè,4,audio/专业.mp3,专业。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,1.01,2026-11-27,ok,专业,
 专门,zhuānmén,4,audio/专门.mp3,专门。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.69,2026-11-27,ok,专门,
-世纪,shìjì,4,audio/世纪.mp3,世纪。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.71,2026-11-27,tone?; take 1 of 3,是己。,
+世纪,shìjì,4,audio/世纪.mp3,世纪。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.71,2026-11-27,tone?; take 1 of 3,是己。,yes
 东部,dōngbù,4,audio/东部.mp3,东部。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.87,2026-11-27,ok,东部,
 严格,yángé,4,audio/严格.mp3,严格。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.94,2026-11-27,ok,严格,
 严重,yánzhòng,4,audio/严重.mp3,严重。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.72,2026-11-27,ok,严重,
@@ -1021,7 +1021,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 中餐,zhōngcān,4,audio/中餐.mp3,中餐。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.66,2026-11-27,ok,中餐,
 丰富,fēngfù,4,audio/丰富.mp3,丰富。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.63,2026-11-27,ok,丰富。,
 为,wéi,4,audio/为_we2i.mp3,,,,,,,needs special.csv,,
-主意,zhǔyi,4,audio/主意.mp3,主意。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.69,2026-11-27,tone?; take 1 of 3,主义。,
+主意,zhǔyi,4,audio/主意.mp3,主意。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.69,2026-11-27,tone?; take 1 of 3,主义。,yes
 举,jǔ,4,audio/举.mp3,举。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.5,2026-11-27,"listen, one syllable",去。,
 举例,jǔlì,4,audio/举例.mp3,举例。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.62,2026-11-27,ok,举例,
 举办,jǔbàn,4,audio/举办.mp3,举办。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.65,2026-11-27,ok,举办,
@@ -1174,7 +1174,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 力气,lìqi,4,audio/力气.mp3,力气。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,ok,力气。,
 办事,bànshì,4,audio/办事.mp3,办事。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.66,2026-11-27,ok,办事。,
 办公,bàngōng,4,audio/办公.mp3,办公。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.61,2026-11-27,ok,办公。,
-办理,bànlǐ,4,audio/办理.mp3,办理，,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.56,2026-11-27,ok; text with a comma,办理。,
+办理,bànlǐ,4,audio/办理.mp3,办理，,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.56,2026-11-27,ok; text with a comma,办理。,yes
 功夫,gōngfu,4,audio/功夫.mp3,功夫。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.66,2026-11-27,ok,功夫。,
 功课,gōngkè,4,audio/功课.mp3,功课。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,ok,功课。,
 加上,jiāshàng,4,audio/加上.mp3,加上。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.66,2026-11-27,ok,加上,
@@ -1557,7 +1557,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 有着,yǒuzhe,4,audio/有着.mp3,有着。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.59,2026-11-27,ok,有着。,
 有趣,yǒuqù,4,audio/有趣.mp3,有趣。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.86,2026-11-27,ok,有趣。,
 期,qī,4,audio/期.mp3,期。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.53,2026-11-27,ok same sound,七,
-期中,qīzhōng,4,audio/期中.mp3,期中。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.69,2026-11-27,tone?; take 1 of 3,其中,
+期中,qīzhōng,4,audio/期中.mp3,期中。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.69,2026-11-27,tone?; take 1 of 3,其中,yes
 期末,qīmò,4,audio/期末.mp3,期末。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.7,2026-11-27,ok,期末,
 末,mò,4,audio/末.mp3,末。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.46,2026-11-27,ok same sound,莫。,
 本来,běnlái,4,audio/本来.mp3,本来。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.6,2026-11-27,ok,本来,
@@ -1669,7 +1669,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 生,shēng,4,audio/生.mp3,生。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.59,2026-11-27,"listen, one syllable",胜。,
 生命,shēngmìng,4,audio/生命.mp3,生命。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.76,2026-11-27,ok,生命,
 生意,shēngyi,4,audio/生意.mp3,生意。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,ok,生意。,
-用于,yòngyú,4,audio/用于.mp3,用于。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.64,2026-11-27,tone?; take 1 of 3,用语。,
+用于,yòngyú,4,audio/用于.mp3,用于。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.64,2026-11-27,tone?; take 1 of 3,用语。,yes
 用来,yònglái,4,audio/用来.mp3,用来。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.6,2026-11-27,ok,用来,
 由,yóu,4,audio/由.mp3,由。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.49,2026-11-27,"listen, one syllable",有。,
 由于,yóuyú,4,audio/由于.mp3,由于。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.71,2026-11-27,ok,由于,
@@ -1689,7 +1689,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 盒子,hézi,4,audio/盒子.mp3,盒子。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.86,2026-11-27,ok,盒子。,
 目前,mùqián,4,audio/目前.mp3,目前。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.67,2026-11-27,ok,目前,
 目标,mùbiāo,4,audio/目标.mp3,目标。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.87,2026-11-27,ok,目标。,
-目的,mùdì,4,audio/目的.mp3,目的。。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.59,2026-11-27,ok; text with two full stops,目的,
+目的,mùdì,4,audio/目的.mp3,目的。。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.59,2026-11-27,ok; text with two full stops,目的,yes
 目的地,mùdìdì,4,audio/目的地.mp3,目的地。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.7,2026-11-27,ok,目的地,
 直接,zhíjiē,4,audio/直接.mp3,直接。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.66,2026-11-27,ok,直接,
 相互,xiānghù,4,audio/相互.mp3,相互。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.75,2026-11-27,ok,相互,
@@ -1968,7 +1968,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 顺序,shùnxù,4,audio/顺序.mp3,顺序。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.95,2026-11-27,ok,顺序,
 顾客,gùkè,4,audio/顾客.mp3,顾客。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.65,2026-11-27,ok,顾客,
 顿,dùn,4,audio/顿.mp3,顿。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.4,2026-11-27,"listen, one syllable",对,
-预习,yùxí,4,audio/预习.mp3,预习。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,tone?; take 1 of 3,玉玺。,
+预习,yùxí,4,audio/预习.mp3,预习。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.68,2026-11-27,tone?; take 1 of 3,玉玺。,yes
 风景,fēngjǐng,4,audio/风景.mp3,风景。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.69,2026-11-27,ok,风景,
 食品,shípǐn,4,audio/食品.mp3,食品。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.77,2026-11-27,ok,食品,
 食堂,shítáng,4,audio/食堂.mp3,食堂。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.73,2026-11-27,ok,食堂。,
