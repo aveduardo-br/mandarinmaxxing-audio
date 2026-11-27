@@ -1,0 +1,61 @@
+voice,word,pinyin,seconds,heard,check
+ladaisy,办理,bànlǐ,1.87,办理，办理，办理。,differs
+ladaisy,大人,dàren,0.67,大人,ok
+ladaisy,一生,yìshēng,0.66,一声,tone?
+ladaisy,垃圾,lājī,0.71,垃圾。,ok
+ladaisy,文字,wénzì,0.76,文字,ok
+ladaisy,景色,jǐngsè,0.81,景色。,ok
+ladaisy,女性,nǚxìng,0.74,没信,differs
+ladaisy,获取,huòqǔ,0.71,或许,differs
+ladaisy,普通,pǔtōng,0.65,普通,ok
+ladaisy,名人,míngrén,0.75,明忍,tone?
+ladaisy,为了,wèile,0.61,为了,ok
+ladaisy,稍微,shāowēi,0.8,稍微。,ok
+ladaisy,比如,bǐrú,0.96,皮肉,differs
+ladaisy,偶尔,ǒu’ěr,0.68,偶尔,ok
+ladaisy,不便,búbiàn,0.96,不变,tone?
+ladaisy,期中,qīzhōng,0.68,其中,tone?
+ladaisy,学期,xuéqī,0.8,学期,ok
+ladaisy,行李,xíngli,0.77,行礼。,tone?
+ladaisy,预习,yùxí,0.96,玉玺,tone?
+ladaisy,西红柿,xīhóngshì,0.94,西红柿。,ok
+ladaisy,好,hǎo,0.71,好。,ok
+ladaisy,不,bù,0.88,不,ok
+ladaisy,吗,ma,0.86,嘛,ok same sound
+ladaisy,茶,chá,0.59,Ta,"listen, one syllable"
+ladaisy,买,mǎi,0.51,My,"listen, one syllable"
+ladaisy,卖,mài,0.5,My。,"listen, one syllable"
+ladaisy,四,sì,0.53,四。,ok
+ladaisy,十,shí,0.67,十。,ok
+ladaisy,是,shì,0.78,是。,ok
+ladaisy,人,rén,0.55,人,ok
+alina,办理,bànlǐ,1.85,办理，办理，办理。,differs
+alina,大人,dàren,0.64,大人,ok
+alina,一生,yìshēng,1.02,一声。,tone?
+alina,垃圾,lājī,0.72,辣姐。,differs
+alina,文字,wénzì,0.71,文字。,ok
+alina,景色,jǐngsè,0.78,景色,ok
+alina,女性,nǚxìng,0.75,女性。,ok
+alina,获取,huòqǔ,1.04,获取。,ok
+alina,普通,pǔtōng,0.68,普通,ok
+alina,名人,míngrén,0.77,明忍。,tone?
+alina,为了,wèile,0.92,为了。,ok
+alina,稍微,shāowēi,0.75,稍微。,ok
+alina,比如,bǐrú,0.67,Peru,nothing heard
+alina,偶尔,ǒu’ěr,0.65,偶尔,ok
+alina,不便,búbiàn,0.66,不变,tone?
+alina,期中,qīzhōng,0.74,期中,ok
+alina,学期,xuéqī,0.81,学期。,ok
+alina,行李,xíngli,0.79,行礼。,tone?
+alina,预习,yùxí,0.96,玉玺。,tone?
+alina,西红柿,xīhóngshì,1.03,西红柿。,ok
+alina,好,hǎo,0.51,好。,ok
+alina,不,bù,0.48,不。,ok
+alina,吗,ma,0.47,妈,"listen, one syllable"
+alina,茶,chá,0.61,茶。,ok
+alina,买,mǎi,0.72,My,"listen, one syllable"
+alina,卖,mài,0.49,My,"listen, one syllable"
+alina,四,sì,0.59,四。,ok
+alina,十,shí,0.61,学,"listen, one syllable"
+alina,是,shì,0.79,是。,ok
+alina,人,rén,0.54,人,ok
