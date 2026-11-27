@@ -264,14 +264,22 @@ def main():
     for e in chosen:
         out_path = os.path.join(ROOT, e['file'])
         try:
-            with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp:
-                tmp.write(tts(e['text'], key))
-            seconds = finish(tmp.name, out_path)
-            os.unlink(tmp.name)
-            heard, check = '', 'not checked'
-            if not args.no_check:
-                heard = stt(out_path, key).strip()
-                check = judge(e['word'], e['pinyin'], heard, seconds)
+            # a word of two syllables or more that the check doesn't recognise is recorded again,
+            # up to three takes, and the first take that passes is kept
+            takes = 1 if args.no_check or len(e['word']) == 1 else 3
+            for take in range(takes):
+                with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp:
+                    tmp.write(tts(e['text'], key))
+                seconds = finish(tmp.name, out_path)
+                os.unlink(tmp.name)
+                heard, check = '', 'not checked'
+                if not args.no_check:
+                    heard = stt(out_path, key).strip()
+                    check = judge(e['word'], e['pinyin'], heard, seconds)
+                if check.startswith('ok') or check.startswith('listen') or check == 'not checked':
+                    break
+            if take:
+                check += f'; take {take + 1}'
             if e.get('two'):
                 check = 'two readings, listen; ' + check
         except Exception as err:  # keep going: one bad word must not stop the run
