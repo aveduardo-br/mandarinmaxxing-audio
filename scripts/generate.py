@@ -132,18 +132,24 @@ def request(method, url, key, tries=5, **kw):
 LANG = {'send': True}
 
 
-def tts(text, key):
+def tts(text, key, voice=None):
     body = {'text': text, 'model_id': TTS_MODEL}
-    url = f'{API}/text-to-speech/{VOICE_ID}?output_format=mp3_44100_128'
+    url = f'{API}/text-to-speech/{voice or VOICE_ID}?output_format=mp3_44100_128'
     if LANG['send']:
         r = request('POST', url, key, json=dict(body, language_code='zh'))
         if r.status_code in (400, 422) and 'language' in r.text.lower():
             LANG['send'] = False  # this model takes no language code: go on without it
+            print('LANGUAGE: the voice model refused language_code=zh:', r.text[:200])
         else:
-            r.raise_for_status()
+            if r.status_code >= 400:
+                raise RuntimeError(f'{r.status_code} {r.text[:300]}')
+            if not LANG.get('said'):
+                LANG['said'] = True
+                print('LANGUAGE: language_code=zh accepted')
             return r.content
     r = request('POST', url, key, json=body)
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f'{r.status_code} {r.text[:300]}')
     return r.content
 
 
