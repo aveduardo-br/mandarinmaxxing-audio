@@ -26,7 +26,7 @@ import time
 import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VOICE_ID = '4AfodMgwXps9oZFhHzoj'  # a native Mandarin voice, chosen by ear in the trial of 27 Nov 2026
+VOICE_ID = '4AfodMgwXps9oZFhHzoj'  # Yun, a native Mandarin voice from the ElevenLabs library, chosen by ear on 27 Nov 2026
 VOICE_NAME = VOICE_ID  # what goes in the voice column of status.csv
 RANK = ['ok', 'listen', 'not checked', 'tone?', 'differs', 'nothing heard']  # best check first
 TTS_MODEL = 'eleven_v4'
