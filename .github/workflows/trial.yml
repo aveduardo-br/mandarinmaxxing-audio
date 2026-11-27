@@ -11,6 +11,10 @@ on:
       words:
         description: Words, separated by commas
         required: true
+      ends:
+        description: What follows the word, one per voice, separated by | (default a full stop)
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -32,7 +36,7 @@ jobs:
       - name: Record
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: python3 scripts/trial.py --voices "${{ inputs.voices }}" --words "${{ inputs.words }}"
+        run: python3 scripts/trial.py --voices "${{ inputs.voices }}" --words "${{ inputs.words }}" --ends "${{ inputs.ends }}"
       - name: Save the files
         if: always()
         run: |

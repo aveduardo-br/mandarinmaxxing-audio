@@ -19,17 +19,20 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--voices', required=True)
     ap.add_argument('--words', required=True)
+    ap.add_argument('--ends', default='', help='what to put after the word, one per voice, separated by |; default is a full stop')
     args = ap.parse_args()
     key = os.environ.get('ELEVENLABS_API_KEY') or sys.exit('ELEVENLABS_API_KEY is not set.')
     pinyin = {e['word']: e['pinyin'] for e in reversed(g.load_words(range(1, 7)))}
     rows = []
-    for pair in args.voices.split(','):
+    ends = args.ends.split('|') if args.ends else []
+    for n, pair in enumerate(args.voices.split(',')):
         name, voice = pair.split('=')
+        end = ends[n] if n < len(ends) else '。'
         for word in args.words.split(','):
             out = os.path.join(g.ROOT, 'trials', name, word + '.mp3')
             try:
                 with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp:
-                    tmp.write(g.tts(word + '。', key, voice))
+                    tmp.write(g.tts(word + end, key, voice))
                 seconds = g.finish(tmp.name, out)
                 os.unlink(tmp.name)
                 heard = g.stt(out, key).strip()
