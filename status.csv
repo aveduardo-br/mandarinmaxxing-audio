@@ -16,9 +16,9 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 下班,xiàbān,1,audio/下班.mp3,下班。,eleven_v4,Sarah,3,0.71,2026-11-22,ok,下班,yes
 下课,xiàkè,1,audio/下课.mp3,下课。,eleven_v4,Sarah,3,0.74,2026-11-22,ok,下课,yes
 下雨,xià yǔ,1,audio/下雨.mp3,下雨。,eleven_v4,Sarah,3,0.78,2026-11-22,ok,下雨。,yes
-不,bù,1,audio/不.mp3,不。,eleven_v4,Sarah,2,0.52,2026-11-22,ok,不。,yes
-不客气,bú kèqi,1,audio/不客气.mp3,不客气。,eleven_v4,Sarah,4,0.76,2026-11-22,ok,不客气。,yes
-不要,búyào,1,audio/不要.mp3,不要。,eleven_v4,Sarah,3,0.7,2026-11-22,ok,不要,yes
+不,bù,1,audio/不.mp3,不。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.37,2026-11-27,ok,不。,
+不客气,bú kèqi,1,audio/不客气.mp3,不客气。,eleven_v4,4AfodMgwXps9oZFhHzoj,4,0.69,2026-11-27,ok,不客气。,
+不要,búyào,1,audio/不要.mp3,不要。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.55,2026-11-27,ok,不要。,
 东西,dōngxi,1,audio/东西.mp3,东西。,eleven_v4,Sarah,3,0.7,2026-11-22,ok,东西。,yes
 两,liǎng,1,audio/两.mp3,两。,eleven_v4,Sarah,2,0.61,2026-11-22,"listen, one syllable",梁。,yes
 个,gè,1,audio/个.mp3,个。,eleven_v4,Sarah,2,0.51,2026-11-22,"listen, one syllable",哥。,yes
@@ -57,7 +57,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 儿子,érzi,1,audio/儿子.mp3,儿子。,eleven_v4,Sarah,3,0.96,2026-11-22,ok,儿子。,yes
 元,yuán,1,audio/元.mp3,元。,eleven_v4,Sarah,2,0.63,2026-11-22,ok,元。,yes
 先生,xiānsheng,1,audio/先生.mp3,先生。,eleven_v4,Sarah,3,0.76,2026-11-22,ok,先生,yes
-八,bā,1,audio/八.mp3,八。,eleven_v4,Sarah,2,0.55,2026-11-22,tone?,吧,yes
+八,bā,1,audio/八.mp3,八。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.44,2026-11-27,"listen, one syllable",大。,
 公司,gōngsī,1,audio/公司.mp3,公司。,eleven_v4,Sarah,3,0.73,2026-11-22,ok,公司。,yes
 六,liù,1,audio/六.mp3,六。,eleven_v4,Sarah,2,0.58,2026-11-22,ok,六。,yes
 再,zài,1,audio/再.mp3,再。,eleven_v4,Sarah,2,0.53,2026-11-22,ok same sound,在。,yes
@@ -70,13 +70,13 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 分钟,fēnzhōng,1,audio/分钟.mp3,分钟。,eleven_v4,Sarah,3,0.7,2026-11-22,ok,分钟,yes
 到,dào,1,audio/到.mp3,到。,eleven_v4,Sarah,2,0.51,2026-11-22,ok,到。,yes
 前,qián,1,audio/前.mp3,前。,eleven_v4,Sarah,2,0.59,2026-11-22,ok same sound,钱？,yes
-包子,bāozi,1,audio/包子.mp3,包子。,eleven_v4,Sarah,3,0.74,2026-11-22,ok,包子。,yes
+包子,bāozi,1,audio/包子.mp3,包子。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.59,2026-11-27,ok,包子。,
 医生,yīshēng,1,audio/医生.mp3,医生。,eleven_v4,Sarah,3,1.04,2026-11-22,ok,医生。,yes
 医院,yīyuàn,1,audio/医院.mp3,医院。,eleven_v4,Sarah,3,0.7,2026-11-22,ok,医院。,yes
 十,shí,1,audio/十.mp3,十。,eleven_v4,Sarah,2,0.64,2026-11-22,ok,十。,yes
 千,qiān,1,audio/千.mp3,千。,eleven_v4,Sarah,2,0.66,2026-11-22,ok same sound,签。,yes
 午饭,wǔfàn,1,audio/午饭.mp3,午饭。,eleven_v4,Sarah,3,0.76,2026-11-22,ok,午饭。,yes
-半,bàn,1,audio/半.mp3,半。,eleven_v4,Sarah,2,0.49,2026-11-22,ok same sound,办。,yes
+半,bàn,1,audio/半.mp3,半。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.41,2026-11-27,ok same sound,办。,
 卖,mài,1,audio/卖.mp3,卖。,eleven_v4,Sarah,2,0.54,2026-11-22,"listen, one syllable",My。,yes
 去,qù,1,audio/去.mp3,去。,eleven_v4,Sarah,2,0.57,2026-11-22,"listen, one syllable",Two,yes
 去年,qùnián,1,audio/去年.mp3,去年。,eleven_v4,Sarah,3,0.74,2026-11-22,ok,去年,yes
@@ -90,7 +90,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 名字,míngzi,1,audio/名字.mp3,名字。,eleven_v4,Sarah,3,0.77,2026-11-22,ok,名字,yes
 后,hòu,1,audio/后.mp3,后。,eleven_v4,Sarah,2,0.53,2026-11-22,"listen, one syllable",好。,yes
 吗,ma,1,audio/吗.mp3,吗。,eleven_v4,Sarah,2,0.54,2026-11-22,ok same sound,嘛,yes
-吧,ba,1,audio/吧.mp3,吧。,eleven_v4,Sarah,2,0.5,2026-11-22,ok,吧。,yes
+吧,ba,1,audio/吧.mp3,吧。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.4,2026-11-27,"listen, one syllable",啊。,
 听,tīng,1,audio/听.mp3,听。,eleven_v4,Sarah,2,0.62,2026-11-22,ok,听。,yes
 听见,tīngjiàn,1,audio/听见.mp3,听见。,eleven_v4,Sarah,3,0.77,2026-11-22,ok,听见。,yes
 呢,ne,1,audio/呢.mp3,呢。,eleven_v4,Sarah,2,0.51,2026-11-22,"listen, one syllable",No,yes
@@ -197,9 +197,9 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 有点儿,yǒudiǎnr,1,audio/有点儿.mp3,有点儿。,eleven_v4,Sarah,4,0.83,2026-11-22,ok,有点儿。,yes
 有的,yǒude,1,audio/有的.mp3,有的。,eleven_v4,Sarah,3,0.67,2026-11-22,ok,有的。,yes
 朋友,péngyou,1,audio/朋友.mp3,朋友。,eleven_v4,Sarah,3,0.73,2026-11-22,ok,朋友,yes
-本,běn,1,audio/本.mp3,本。,eleven_v4,Sarah,2,0.85,2026-11-22,ok,本。,yes
+本,běn,1,audio/本.mp3,本。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.46,2026-11-27,ok,本,
 来,lái,1,audio/来.mp3,来。,eleven_v4,Sarah,2,0.93,2026-11-22,ok,来。,yes
-杯子,bēizi,1,audio/杯子.mp3,杯子。,eleven_v4,Sarah,3,0.95,2026-11-22,ok,杯子。,yes
+杯子,bēizi,1,audio/杯子.mp3,杯子。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.6,2026-11-27,ok,杯子。,
 桌子,zhuōzi,1,audio/桌子.mp3,桌子。,eleven_v4,Sarah,3,0.72,2026-11-22,ok,桌子。,yes
 椅子,yǐzi,1,audio/椅子.mp3,椅子。,eleven_v4,Sarah,3,0.75,2026-11-22,ok,椅子。,yes
 歌,gē,1,audio/歌.mp3,歌。,eleven_v4,Sarah,2,0.64,2026-11-22,"listen, one syllable",乌塔,yes
@@ -215,8 +215,8 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 火车,huǒchē,1,audio/火车.mp3,火车。,eleven_v4,Sarah,3,0.74,2026-11-22,ok,火车。,yes
 点,diǎn,1,audio/点.mp3,点。,eleven_v4,Sarah,2,0.52,2026-11-22,ok,点。,yes
 热,rè,1,audio/热.mp3,热。,eleven_v4,Sarah,2,0.59,2026-11-22,ok,热。,yes
-爱,ài,1,audio/爱.mp3,爱。,eleven_v4,Sarah,2,0.72,2026-11-22,nothing heard,I。,yes
-爸爸,bàba,1,audio/爸爸.mp3,爸爸。,eleven_v4,Sarah,3,0.58,2026-11-22,ok,爸爸,yes
+爱,ài,1,audio/爱.mp3,爱。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.79,2026-11-27,"listen, one syllable",I。,
+爸爸,bàba,1,audio/爸爸.mp3,爸爸。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.54,2026-11-27,ok,爸爸。,
 牛奶,niúnǎi,1,audio/牛奶.mp3,牛奶。,eleven_v4,Sarah,3,0.76,2026-11-22,ok,牛奶。,yes
 狗,gǒu,1,audio/狗.mp3,狗。,eleven_v4,Sarah,2,0.54,2026-11-22,"listen, one syllable",Go。,yes
 猫,māo,1,audio/猫.mp3,猫。,eleven_v4,Sarah,2,0.65,2026-11-22,ok,猫。,yes
@@ -230,9 +230,9 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 电话,diànhuà,1,audio/电话.mp3,电话。,eleven_v4,Sarah,3,0.73,2026-11-22,ok,电话。,yes
 男,nán,1,audio/男.mp3,男。,eleven_v4,Sarah,2,0.68,2026-11-22,"listen, one syllable",Man,yes
 男朋友,nánpéngyou,1,audio/男朋友.mp3,男朋友。,eleven_v4,Sarah,4,0.92,2026-11-22,ok,男朋友。,yes
-病,bìng,1,audio/病.mp3,病。,eleven_v4,Sarah,2,0.5,2026-11-22,tone?,冰。,yes
-白天,báitiān,1,audio/白天.mp3,白天。,eleven_v4,Sarah,3,0.69,2026-11-22,ok,白天,yes
-百,bǎi,1,audio/百.mp3,百。,eleven_v4,Sarah,2,0.54,2026-11-22,nothing heard,Bye。,yes
+病,bìng,1,audio/病.mp3,病。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.42,2026-11-27,ok same sound,并,
+白天,báitiān,1,audio/白天.mp3,白天。,eleven_v4,4AfodMgwXps9oZFhHzoj,3,0.7,2026-11-27,ok,白天,
+百,bǎi,1,audio/百.mp3,百。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.45,2026-11-27,"listen, one syllable",Bye。,
 的,de,1,audio/的.mp3,的。,eleven_v4,Sarah,2,0.45,2026-11-22,"listen, one syllable",对。,yes
 看,kàn,1,audio/看.mp3,看。,eleven_v4,Sarah,2,0.55,2026-11-22,"listen, one syllable",Come。,yes
 看病,kànbìng,1,audio/看病.mp3,看病。,eleven_v4,Sarah,3,0.79,2026-11-22,ok,看病。,yes
@@ -268,7 +268,7 @@ word,pinyin,level,file,text,model,voice,chars,seconds,generated,check,heard,appr
 起床,qǐchuáng,1,audio/起床.mp3,起床。,eleven_v4,Sarah,3,0.79,2026-11-22,ok,起床。,yes
 超市,chāoshì,1,audio/超市.mp3,超市。,eleven_v4,Sarah,3,0.79,2026-11-22,ok,超市。,yes
 车,chē,1,audio/车.mp3,车。,eleven_v4,Sarah,2,0.61,2026-11-22,ok,车。,yes
-边,biān,1,audio/边.mp3,边。,eleven_v4,Sarah,2,0.87,2026-11-22,ok,边。,yes
+边,biān,1,audio/边.mp3,边。,eleven_v4,4AfodMgwXps9oZFhHzoj,2,0.7,2026-11-27,"listen, one syllable",变。,
 还,hái,1,audio/还.mp3,还。,eleven_v4,Sarah,2,0.66,2026-11-22,"listen, one syllable",嗨。,yes
 这,zhè,1,audio/这.mp3,这。,eleven_v4,Sarah,2,0.58,2026-11-22,ok,这,yes
 这个,zhège,1,audio/这个.mp3,这个。,eleven_v4,Sarah,3,0.67,2026-11-22,ok,这个,yes
