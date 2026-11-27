@@ -11,7 +11,8 @@ Writes  audio/<word>.mp3  and updates status.csv and redo.txt
 
 The API key comes from the environment variable ELEVENLABS_API_KEY. Nothing is generated twice:
 a word with a line in status.csv is skipped unless it is listed in redo.txt, and a line marked
-approved=yes is never recorded again.
+approved=yes is never recorded again. A line recorded with another voice counts as not recorded,
+approved or not, so that every file ends up in the same voice.
 """
 import argparse
 import csv
@@ -25,8 +26,9 @@ import time
 import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VOICE_ID = 'EXAVITQu4vr4xnSDxMaL'  # Sarah
-VOICE_NAME = 'Sarah'
+VOICE_ID = '4AfodMgwXps9oZFhHzoj'  # a native Mandarin voice, chosen by ear in the trial of 27 Nov 2026
+VOICE_NAME = VOICE_ID  # what goes in the voice column of status.csv
+RANK = ['ok', 'listen', 'not checked', 'tone?', 'differs', 'nothing heard']  # best check first
 TTS_MODEL = 'eleven_v4'
 STT_MODEL = 'scribe_v2'
 API = 'https://api.elevenlabs.io/v1'
@@ -182,6 +184,21 @@ def finish(raw_path, out_path):
     return round(float(length.stdout.strip() or 0), 2)
 
 
+def finish_take(raw_path, take_path):
+    """finish() for a file whose name doesn't end in .mp3."""
+    tmp = take_path + '.mp3'
+    seconds = finish(raw_path, tmp)
+    os.replace(tmp, take_path)
+    return seconds
+
+
+def rank(check):
+    for i, start in enumerate(RANK):
+        if check.startswith(start):
+            return i
+    return len(RANK)
+
+
 def judge(word, pinyin, heard, seconds):
     """Compare what the transcriber heard with the word. It catches a wrong word, not a wrong tone."""
     han = ''.join(HAN.findall(heard))
@@ -232,9 +249,10 @@ def main():
         key = (e['word'], tone_ascii(e['pinyin']))
         old = status.get(e['file'])
         again = e['word'] in redo
-        if old and old.get('approved', '').lower() == 'yes':
+        same_voice = bool(old) and old.get('voice') == VOICE_NAME
+        if same_voice and old.get('approved', '').lower() == 'yes':
             continue
-        if old and old.get('generated') and not again:
+        if same_voice and old.get('generated') and not again:
             continue
         if key in special:
             e['text'] = special[key]
@@ -271,21 +289,35 @@ def main():
         out_path = os.path.join(ROOT, e['file'])
         try:
             # a word of two syllables or more that the check doesn't recognise is recorded again,
-            # up to three takes, and the first take that passes is kept
+            # up to three takes. The first take that passes is kept; if none passes, the best one is.
+            # Later takes of a plain word drop the full stop, which sometimes makes the voice repeat it.
             takes = 1 if args.no_check or len(e['word']) == 1 else 3
+            best = None
             for take in range(takes):
+                text = e['text']
+                if take and text == e['word'] + '。':
+                    text = e['word']
                 with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp:
-                    tmp.write(tts(e['text'], key))
-                seconds = finish(tmp.name, out_path)
+                    tmp.write(tts(text, key))
+                trial_path = out_path + f'.take{take}'
+                seconds = finish_take(tmp.name, trial_path)
                 os.unlink(tmp.name)
                 heard, check = '', 'not checked'
                 if not args.no_check:
-                    heard = stt(out_path, key).strip()
+                    heard = stt(trial_path, key).strip()
                     check = judge(e['word'], e['pinyin'], heard, seconds)
-                if check.startswith('ok') or check.startswith('listen') or check == 'not checked':
+                score = (rank(check), 'slow' in check, take)
+                if best is None or score < best[0]:
+                    best = (score, trial_path, seconds, heard, check, text, take)
+                if rank(check) <= 2:
                     break
+            _, kept, seconds, heard, check, e['text'], kept_take = best
+            os.replace(kept, out_path)
+            for n in range(takes):
+                if os.path.exists(out_path + f'.take{n}'):
+                    os.unlink(out_path + f'.take{n}')
             if take:
-                check += f'; take {take + 1}'
+                check += f'; take {kept_take + 1} of {take + 1}'
             if e.get('two'):
                 check = 'two readings, listen; ' + check
         except Exception as err:  # keep going: one bad word must not stop the run
